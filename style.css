@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li{
+	display: inline-block;
+	padding: 15px;
+
+}
+span{
+	background-color: red;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	font-family:sans-serif;;
+	margin-right: 10px;
+}
+
+.portugues{
+	color: white;
+	border: white;
+	border-style: solid;
+	padding: 7px;
+}
+main{
+	text-align: center;
+	color: white;
+	padding: 85px;
+}
+
+main h1{
+	font-family: sans-serif;
+	font-size: 60px;
+}
+
+main h5{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 15px;
+}
+
+main p{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.inputs{
+	padding: 25px 0px;
+	width: 100%;
+
+}
+.email{
+	padding: 20px;
+	width: 50%;
+}
+
+.botao{
+	padding: 20px;
+	background-color: red;
+	color: white;
+}
+div.fundo {
+    background-image: url(IMG1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    position: relative;
+    z-index: 1;
+}
+div.fundo::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -1;}
